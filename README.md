@@ -1,4 +1,4 @@
-# CRM Online 
+# CRM Online
 
 Hệ thống quản lý hoạt động khách hàng được xây dựng theo kiến trúc Clean Architecture và Domain-Driven Design (DDD).
 
@@ -15,6 +15,29 @@ Trước khi bắt đầu, hãy đảm bảo máy đã cài đặt:
 
 ---
 
+# Demo Giao Diện
+
+## Dashboard
+
+<p align="center">
+  <img src="./assets/dashboard.png" width="900"/>
+</p>
+
+---
+
+## Form Thêm Dữ Liệu
+
+<p align="center">
+  <img src="./assets/formthemdulieu.png" width="900"/>
+</p>
+
+---
+
+## Chi Tiết Nội Dung
+
+<p align="center">
+  <img src="./assets/chitietnoidung.png" width="700"/>
+</p>
 # Quy Trình Cài Đặt
 
 ## Bước 1: Chuẩn Bị Cơ Sở Dữ Liệu (MySQL)
@@ -33,8 +56,7 @@ CREATE DATABASE CRMOnline_Pro;
 
 Sau đó:
 
-
--  để Hibernate tự động generate bảng từ Entity
+- để Hibernate tự động generate bảng từ Entity
 
 ---
 
@@ -125,13 +147,13 @@ Nếu chưa cấu hình CORS đúng, hệ thống có thể bị lỗi:
 
 # Hướng Dẫn Sử Dụng Nhanh
 
-| Tính năng | Cách thực hiện |
-|---|---|
-| Xem danh sách | Dữ liệu tự động tải khi mở Dashboard |
-| Ghi hoạt động | Nhấn `+ Ghi lại hoạt động` và chọn khách hàng / nhân viên |
-| Tìm kiếm / Lọc | Nhập tên khách hàng hoặc chọn loại hoạt động |
-| Xem nội dung dài | Nhấn vào nội dung để mở Modal chi tiết |
-| Cập nhật giờ | Nhấn `Sửa` và chọn lại thời gian |
+| Tính năng        | Cách thực hiện                                            |
+| ---------------- | --------------------------------------------------------- |
+| Xem danh sách    | Dữ liệu tự động tải khi mở Dashboard                      |
+| Ghi hoạt động    | Nhấn `+ Ghi lại hoạt động` và chọn khách hàng / nhân viên |
+| Tìm kiếm / Lọc   | Nhập tên khách hàng hoặc chọn loại hoạt động              |
+| Xem nội dung dài | Nhấn vào nội dung để mở Modal chi tiết                    |
+| Cập nhật giờ     | Nhấn `Sửa` và chọn lại thời gian                          |
 
 ---
 
@@ -244,8 +266,6 @@ npm run dev
 - Không được trùng port:
   - Backend: `8081`
   - Frontend: `5173`
-
-
 
 ```text
 Project nghiên cứu Clean Architecture & DDD bằng Spring Boot + ReactJS
