@@ -10,7 +10,7 @@ Trước khi bắt đầu, hãy đảm bảo máy đã cài đặt:
 
 - JDK 21 hoặc JDK 25
 - Node.js (phiên bản mới nhất)
-- MySQL Server
+- MySQL
 - IntelliJ IDEA hoặc VS Code
 
 ---
